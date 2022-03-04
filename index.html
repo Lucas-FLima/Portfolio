@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo_LLsn.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+        integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v6.0.0/js/all.js"
+        integrity="sha384-l+HksIGR+lyuyBo1+1zCBSRt6v4yklWu7RbG0Cv+jDLDD9WFcEIwZLHioVB4Wkau"
+        crossorigin="anonymous"></script>
+    <title>Portfólio Lucas Lima</title>
+</head>
+
+<body>
+    <header class="container">
+        <div class="container header">
+            <div class="logo">
+                <img src="./assets/images/logo_LLsn.png" alt="Logo Lucas Lima">
+            </div>
+            <nav>
+                <i class="fa-solid fa-bars fa-2xl" id="bars"></i>
+                <ul>
+                    <li>
+                        <a href="#sobre">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#conhecimentos">Conhecimentos</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfólio</a>
+                    </li>
+                    <li>
+                        <a href="mailto:lupimfinito@gmail.com">Contato</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/lucas-lima-625116231/" target="_blank">
+                            <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Lucas-FLima" target="_blank">
+                            <i class="fa-brands fa-github fa-xl"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="apresentacao container">
+            <h3>Olá <span class="animation">👋</span>! Eu sou o</h3>
+            <h1><span class="lone">L</span><span class="ucas">ucas</span><span class="ltwo">L</span><span class="ima">ima</span></h1>
+            <h3>Desenvolvedor Web
+            </h3>
+            <h3 class="especificacao">Desenvolvimento de interfaces inteligentes e responsivas
+            </h3>
+        </section>
+        <section class="light" id="sobre">
+            <div class="sobre container">
+                <div class="img_perfil">
+                    <img src="./assets/images/perfil.jpeg" alt="Foto de Perfil de Lucas Lima">
+                </div>
+                <div class="sobre_descricao">
+                    <h2>Sobre mim</h2>
+                    <p>🧗🏻‍♂️ Atuo com responsabilidade, pontualidade, seriedade e inteligência. Agilidade e êxito são
+                        palavras que caminham juntas comigo em qualquer tarefa que eu faça.</p>
+                    <p>👨🏻‍💻 Tenho 23 anos, curso Engenharia na Universidade Federal de Mato Grosso do Sul (UFMS).</p>
+                    <p>🌱 Amo resolver desafios.</p>
+                    <p>❤️ Sou apaixonado por tecnologia. </p>
+                    <p>🏆 Gosto de trabalhar em equipe, aprender e ensinar coisas novas às pessoas.</p>
+                    <p>👫🏻 Casado.</p>
+                    <p>🙋🏻‍♂️ Faça o bem, você não sabe o quanto é gratificante ver que suas atitudes semeiam o bem!
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="conhecimentos">
+            <div class="conhecimentos container">
+                <div class="conh_title">
+                    <h2>Conhecimentos</h2>
+                </div>
+                <div class="conh_tech">
+                    <div class="html" onclick="html()">
+                        <img src="./assets/images/html.png" alt="Logo do HTML5">
+                        <h3>html5</h3>
+                    </div>
+                    <div class="css" onclick="css()">
+                        <img src="./assets/images/css-3.png" alt="Logo do CSS3">
+                        <h3>css</h3>
+                    </div>
+                    <div class="js" onclick="js()">
+                        <img src="./assets/images/js.png" alt="Logo do JavaScript">
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+                <div class="conhecimentos_descricao">
+                    <p class="html_descricao disable"><span>html5</span>
+                        (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o
+                        significado e a estrutura do conteúdo da web.
+                    </p>
+                    <p class="css_descricao disable"><span>css</span>
+                        (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo (en-US) usada
+                        para descrever a apresentação de um documento escrito em HTML ou em XML. Ele também descreve
+                        como
+                        elementos são mostrados na tela, no papel, na fala ou em outras mídias.
+                    </p>
+                    <p class="js_descricao disable"><span>JavaScript</span>
+                        é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem
+                        dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três
+                        principais tecnologias da World Wide Web. JavaScript permite páginas da Web interativas e,
+                        portanto, é uma parte essencial dos aplicativos da web.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="light" id="portfolio">
+            <div class="portfolio container">
+                <div class="portfolio_title">
+                    <h2>Portfólio</h2>
+                </div>
+                <div class="projetos container">
+                    <div class="medicenter">
+                        <h3>MediCenter</h3>
+                        <div class="techs">
+                            <img src="./assets/images/html_mini.png" alt="HTML5">
+                            <img src="./assets/images/css-3_mini.png" alt="CSS">
+                            <img src="./assets/images/js_mini.png" alt="JavaScript">
+                        </div>
+                        <div class="visualizacoes">
+                            <a href="https://github.com/Lucas-FLima/medicenter-front-end" target="_blank"><img
+                                    src="./assets/icons/outline_code_white_24dp.png"
+                                    alt="Logo para redirecionamento github"></a>
+                            <a href="https://lucas-flima.github.io/medicenter-front-end/" target="_blank"><img
+                                    src="./assets/icons/outline_visibility_white_24dp.png"
+                                    alt="Logo para redirecionamento Página de Tributo"></a>
+                        </div>
+                    </div>
+                    <div class="medicenter_image container">
+                    </div>
+                </div>
+                <div class="projetos container">
+                    <div class="starbucks">
+                        <h3>Starbucks</h3>
+                        <div class="techs">
+                            <img src="./assets/images/html_mini.png" alt="HTML5">
+                            <img src="./assets/images/css-3_mini.png" alt="CSS">
+                            <img src="./assets/images/js_mini.png" alt="JavaScript">
+                        </div>
+                        <div class="visualizacoes">
+                            <a href="https://github.com/Lucas-FLima/Starbucks/tree/main" target="_blank"><img
+                                    src="./assets/icons/outline_code_white_24dp.png"
+                                    alt="Logo para redirecionamento github"></a>
+                            <a href="https://lucas-flima.github.io/Starbucks/" target="_blank"><img
+                                    src="./assets/icons/outline_visibility_white_24dp.png"
+                                    alt="Logo para redirecionamento Página de Tributo"></a>
+                        </div>
+                    </div>
+                    <div class="starbucks_image container">
+                    </div>
+                </div>
+                <div class="projetos container">
+                    <div class="awax">
+                        <h3>Awax</h3>
+                        <div class="techs">
+                            <img src="./assets/images/html_mini.png" alt="HTML5">
+                            <img src="./assets/images/css-3_mini.png" alt="CSS">
+                            <img src="./assets/images/js_mini.png" alt="JavaScript">
+                        </div>
+                        <div class="visualizacoes">
+                            <a href="https://github.com/Lucas-FLima/awax-page" target="_blank"><img
+                                    src="./assets/icons/outline_code_white_24dp.png"
+                                    alt="Logo para redirecionamento github"></a>
+                            <a href="https://lucas-flima.github.io/awax-page/" target="_blank"><img
+                                    src="./assets/icons/outline_visibility_white_24dp.png"
+                                    alt="Logo para redirecionamento Página de Tributo"></a>
+                        </div>
+                    </div>
+                    <div class="awax_image container">
+                    </div>
+                </div>
+                <div class="projetos container">
+                    <div class="tributo">
+                        <h3>Página de Tributo</h3>
+                        <div class="techs">
+                            <img src="./assets/images/html_mini.png" alt="HTML5">
+                            <img src="./assets/images/css-3_mini.png" alt="CSS">
+                        </div>
+                        <div class="visualizacoes">
+                            <a href="https://github.com/Lucas-FLima/tribute-page" target="_blank"><img
+                                    src="./assets/icons/outline_code_white_24dp.png"
+                                    alt="Logo para redirecionamento github"></a>
+                            <a href="https://lucas-flima.github.io/tribute-page/" target="_blank"><img
+                                    src="./assets/icons/outline_visibility_white_24dp.png"
+                                    alt="Logo para redirecionamento Página de Tributo"></a>
+                        </div>
+                    </div>
+                    <div class="tributo_image container">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="copyright">
+            Todos os direitos reservados © <a href="https://github.com/Lucas-FLima" target="_blank">Lucas Lima</a>
+        </div>
+    </footer>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
