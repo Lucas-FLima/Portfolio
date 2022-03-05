@@ -412,6 +412,11 @@ main {
   margin-right: 0;
 }
 
+.awax_image a, .starbucks_image a, .medicenter_image a, .tributo_image a {
+  display: block;
+  height: 100%;
+}
+
 .medicenter_image {
   background-image: url("./images/medicenter.png");
   width: 1140px;
@@ -499,7 +504,131 @@ footer {
   }
 }
 
-@media (min-width: 321px) and (max-width: 767px) {
+@media (min-width: 655px) and (max-width: 767px) {
+  .container {
+    width: 100vw;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .fa-bars {
+    display: block;
+  }
+
+  nav ul {
+    display: none ;
+    flex-direction: column !important;
+    justify-content: space-around;
+    background-color: rgba(27, 27, 27, 0.80);
+    position: absolute;
+    height: calc(100vh - 100px);
+    z-index: 999;
+    top: 94px;
+    width: calc(100vw - 100px);
+    right: 0;
+
+  }
+
+  nav ul li {
+    margin-right: 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .apresentacao h3 {
+    font-size: 28px;
+  }
+
+  .apresentacao h1 {
+    text-align: center;
+    font-size: 130px;
+  }
+  .sobre {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px;
+  }
+
+  .img_perfil img {
+    margin: 0;
+  }
+
+  .sobre_descricao h2, .conh_title h2, .portfolio_title h2 {
+    font-size: 35px;
+  }
+
+  .sobre_descricao h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sobre_descricao p {
+    padding-bottom: 10px;
+    text-align: left;
+  }
+
+  .sobre_descricao p:last-child {
+    padding-bottom: 0;
+  }
+
+  #conhecimentos {
+    padding: 30px 0px;
+  }
+
+  #portfolio {
+    margin-top: 0;
+  }
+
+  .html img,
+  .css img,
+  .js img {
+    width: 90px;
+  }
+  .html h3,
+  .css h3,
+  .js h3 {
+    font-size: 15px;
+  }
+
+  .html_descricao,
+  .css_descricao,
+  .js_descricao {
+    font-size: 15px;
+  }
+
+  .html_descricao span,
+  .css_descricao span,
+  .js_descricao span {
+    font-size: 18px;
+  }
+
+  .medicenter, .starbucks, .awax, .tributo {
+    padding: 10px 0px;
+  }
+
+  .medicenter h3, .starbucks h3, .awax h3, .tributo h3 {
+    font-size: 20px;
+  }
+  .techs img {
+    width: 25px;
+    margin-right: 5px;
+  }
+  .visualizacoes a {
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .starbucks_image, .awax_image, .tributo_image, .medicenter_image {
+    height: 290px;
+  }
+}
+
+@media (min-width: 509px) and (max-width:654px) {
   .container {
     width: 100vw;
     padding-left: 10px;
@@ -539,7 +668,7 @@ footer {
 
   .apresentacao h1 {
     text-align: center;
-    font-size: 130px;
+    font-size: 100px;
   }
   .sobre {
     flex-direction: column;
@@ -562,6 +691,257 @@ footer {
   }
 
   .sobre_descricao p {
+    font-size: 23px;
+    padding-bottom: 10px;
+    text-align: left;
+  }
+
+  .sobre_descricao p:last-child {
+    padding-bottom: 0;
+  }
+
+  #conhecimentos {
+    padding: 30px 0px;
+  }
+
+  #portfolio {
+    margin-top: 0;
+  }
+
+  .html img,
+  .css img,
+  .js img {
+    width: 90px;
+  }
+  .html h3,
+  .css h3,
+  .js h3 {
+    font-size: 15px;
+  }
+
+  .html_descricao,
+  .css_descricao,
+  .js_descricao {
+    font-size: 15px;
+  }
+
+  .html_descricao span,
+  .css_descricao span,
+  .js_descricao span {
+    font-size: 18px;
+  }
+
+  .medicenter, .starbucks, .awax, .tributo {
+    padding: 10px 0px;
+  }
+
+  .medicenter h3, .starbucks h3, .awax h3, .tributo h3 {
+    font-size: 20px;
+  }
+  .techs img {
+    width: 25px;
+    margin-right: 5px;
+  }
+  .visualizacoes a {
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .starbucks_image, .awax_image, .tributo_image, .medicenter_image {
+    height: 290px;
+  }
+}
+
+@media (min-width: 368px) and (max-width:508px) {
+  .container {
+    width: 100vw;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .fa-bars {
+    display: block;
+  }
+
+  nav ul {
+    display: none ;
+    flex-direction: column !important;
+    justify-content: space-around;
+    background-color: rgba(27, 27, 27, 0.80);
+    position: absolute;
+    height: calc(100vh - 100px);
+    z-index: 999;
+    top: 94px;
+    width: calc(100vw - 100px);
+    right: 0;
+
+  }
+
+  nav ul li {
+    margin-right: 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .apresentacao h3 {
+    font-size: 20px;
+  }
+
+  .apresentacao h1 {
+    text-align: center;
+    font-size: 71px;
+  }
+  .sobre {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px;
+  }
+
+  .img_perfil img {
+    margin: 0;
+  }
+
+  .sobre_descricao h2, .conh_title h2, .portfolio_title h2 {
+    font-size: 35px;
+  }
+
+  .sobre_descricao h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sobre_descricao p {
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+  }
+
+  .sobre_descricao p:last-child {
+    padding-bottom: 0;
+  }
+
+  #conhecimentos {
+    padding: 30px 0px;
+  }
+
+  #portfolio {
+    margin-top: 0;
+  }
+
+  .html img,
+  .css img,
+  .js img {
+    width: 90px;
+  }
+  .html h3,
+  .css h3,
+  .js h3 {
+    font-size: 15px;
+  }
+
+  .html_descricao,
+  .css_descricao,
+  .js_descricao {
+    font-size: 15px;
+  }
+
+  .html_descricao span,
+  .css_descricao span,
+  .js_descricao span {
+    font-size: 18px;
+  }
+
+  .medicenter, .starbucks, .awax, .tributo {
+    padding: 10px 0px;
+  }
+
+  .medicenter h3, .starbucks h3, .awax h3, .tributo h3 {
+    font-size: 20px;
+  }
+  .techs img {
+    width: 25px;
+    margin-right: 5px;
+  }
+  .visualizacoes a {
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .starbucks_image, .awax_image, .tributo_image, .medicenter_image {
+    height: 290px;
+  }
+}
+
+@media  (max-width: 367px) {
+  .container {
+    width: 100vw;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .fa-bars {
+    display: block;
+  }
+
+  nav ul {
+    display: none ;
+    flex-direction: column !important;
+    justify-content: space-around;
+    background-color: rgba(27, 27, 27, 0.80);
+    position: absolute;
+    height: calc(100vh - 100px);
+    z-index: 999;
+    top: 94px;
+    width: calc(100vw - 100px);
+    right: 0;
+
+  }
+
+  nav ul li {
+    margin-right: 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .apresentacao h3 {
+    font-size: 20px;
+  }
+
+  .apresentacao h1 {
+    text-align: center;
+    font-size: 6em;
+  }
+  .sobre {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px;
+  }
+
+  .img_perfil img {
+    margin: 0;
+  }
+
+  .sobre_descricao h2, .conh_title h2, .portfolio_title h2 {
+    font-size: 35px;
+  }
+
+  .sobre_descricao h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sobre_descricao p {
+    font-size: 20px;
     padding-bottom: 10px;
     text-align: left;
   }
